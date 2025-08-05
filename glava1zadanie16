@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main(void)
+{
+  int a = 8, b = 19, c = 14;
+  int max = c; 
+ 
+  if(a>b && a>c)
+    max=a;
+  else if(b>a && b>c)
+    max=b;
+ 
+  printf("Max: %d",max);
+  return 0;
+}
