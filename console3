@@ -1,5 +1,5 @@
 #include <stdio.h>
-  
+ 
 int main(void)
 {
     int age;
@@ -9,7 +9,7 @@ int main(void)
     scanf("%d", &age);
     // вводим имя
     printf("Your name: ");
-    scanf("%20s", name);
+    scanf("%20[^\n]", name);
      
     printf("Name: %s \t Age = %d",name,  age);
     return 0;
